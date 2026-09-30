@@ -1,10 +1,12 @@
 // =====================================================
-// MOBILE NAVIGATION
+// MOBILE MENU
 // =====================================================
 
-const menuButton = document.getElementById("menu-btn");
+const menuButton =
+    document.getElementById("menu-btn");
 
-const navbar = document.getElementById("navbar");
+const navbar =
+    document.getElementById("navbar");
 
 
 menuButton.addEventListener("click", function () {
@@ -14,7 +16,7 @@ menuButton.addEventListener("click", function () {
 });
 
 
-// Close menu after clicking a navigation link
+// Close mobile menu after clicking a link
 
 const navLinks =
     document.querySelectorAll("#navbar a");
@@ -33,7 +35,7 @@ navLinks.forEach(function (link) {
 
 
 // =====================================================
-// GENERAL CONTACT FORM
+// CONTACT FORM
 // =====================================================
 
 const contactForm =
@@ -48,17 +50,25 @@ contactForm.addEventListener("submit", function(event) {
     const name =
         document.getElementById("name").value.trim();
 
+
     const email =
         document.getElementById("email").value.trim();
 
+
     const subject =
         document.getElementById("subject").value.trim();
+
 
     const message =
         document.getElementById("message").value.trim();
 
 
-    // Replace with Kinza's real email
+    /*
+       IMPORTANT:
+
+       Replace this email with Kinza's
+       real academy email.
+    */
 
     const academyEmail =
         "your-email@example.com";
@@ -168,7 +178,10 @@ admissionForm.addEventListener("submit", function(event) {
         .trim();
 
 
-    // Replace this with Kinza's real email
+    /*
+       Replace with Kinza's
+       real academy email.
+    */
 
     const academyEmail =
         "your-email@example.com";
